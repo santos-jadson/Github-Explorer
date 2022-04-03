@@ -9,7 +9,6 @@ import Card from '../../components/Card'
 function UserDetails() {
   return (
       <>
-
         <Header>
           <header>
           <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/high-angle-view-of-variety-of-succulent-plants-royalty-free-image-1584462052.jpg" alt="Username" />
