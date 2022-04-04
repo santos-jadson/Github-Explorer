@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLocation, useNavigate  } from 'react-router-dom'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Card from '../../../../components/Card'
 import BottomLoader from '../../../../components/BottomLoader'
 import User from '../../../../models/user';
-import { getUserByName } from '../../../../services/UserService';
 import Response from '../../../../interfaces/response';
-import { getRepoByUsername, getStarredByUsername } from '../../../../services/RepositoryService';
+import { getRepoByUsername } from '../../../../services/RepositoryService';
 import Repository from '../../../../models/repository';
 import { PER_PAGE_DEFAULT_VALUE } from '../../../../Utils/constants';
 import { Button } from './styles';

@@ -19,17 +19,3 @@ export function getUserByName(name: string) {
         }
       )
   }
-
-  /*export function getUserByName(name: string, per_page: number, page: number) {
-    let queryString = `?per_page=${per_page}&page=${page}`
-
-    return api.get(`https://api.github.com/users/${name}${queryString}`)
-      .then((res) => {
-          console.log(res)
-        return res.data
-      },
-        (error) => {
-          console.error(error)
-        }
-      )
-  }*/

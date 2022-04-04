@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Container from '../../components/Container'
 import {Wrapper} from './styles'
-import { Link, useLocation, useNavigate  } from 'react-router-dom'
+import { useLocation, useNavigate  } from 'react-router-dom'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import User from '../../models/user';
