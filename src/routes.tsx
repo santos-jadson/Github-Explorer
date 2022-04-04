@@ -11,7 +11,7 @@ function Routes(){
         <BrowserRouter>
             <NavigationRoutes>
                 <Route path="/" element={<Home />} />
-                <Route path="/user" element={<UserDetails />} />
+                <Route path="/:user" element={<UserDetails />} />
             </NavigationRoutes>
         </BrowserRouter>
     );

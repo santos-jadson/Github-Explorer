@@ -46,7 +46,7 @@ a img {
     }
   }
   > svg {
-    margin-left: auto;
+    margin-left: 10px;
     color: #3A506B;
 
     &:hover {
